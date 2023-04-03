@@ -135,7 +135,7 @@ export default {
   // setupFiles: [],
 
   // A list of paths to modules that run some code to configure or set up the testing framework before each test
-  // setupFilesAfterEnv: [],
+   setupFilesAfterEnv: ["jest-allure/dist/setup"],
 
   // The number of seconds after which a test is considered as slow and reported as such in the results.
   // slowTestThreshold: 5,
@@ -171,7 +171,7 @@ export default {
 
   // This option allows use of a custom test runner
   // testRunner: "jest-circus/runner",
-
+  testRunner: "jest-jasmine2",
   // A map from regular expressions to paths to transformers
   // transform: undefined,
 
