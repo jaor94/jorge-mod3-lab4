@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1680488070736' stop='1680488122351'>
+    <name>Test monto total a pagar</name>
+    <title>Test monto total a pagar</title>
+    <test-cases>
+        <test-case start='1680488074147' status='passed' stop='1680488081813'>
+            <name>Ingresar a la pagina</name>
+            <title>Ingresar a la pagina</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1680488081813' status='passed' stop='1680488081985'>
+            <name>Click en Categorías</name>
+            <title>Click en Categorías</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1680488081986' status='passed' stop='1680488082233'>
+            <name>Selecciona Categoría</name>
+            <title>Selecciona Categoría</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1680488082233' status='passed' stop='1680488087295'>
+            <name>Selecciona Subcategoria</name>
+            <title>Selecciona Subcategoria</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1680488087295' status='passed' stop='1680488111616'>
+            <name>Selecciona Items</name>
+            <title>Selecciona Items</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1680488111616' status='passed' stop='1680488121779'>
+            <name>Total en carrito</name>
+            <title>Total en carrito</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
