@@ -37,11 +37,11 @@ export class MyPage extends BasePage{
 
     async addCart(item: string) {
         await this.driver.Page.click(await this.subcatEleccAdd(item));
-        await this.driver.Page.waitForTimeout(10000);
+        await this.driver.Page.waitForTimeout(30000);
     }
 
     async getElementTextCarrito() {
-        await this.driver.Page.waitForTimeout(10000);
+        await this.driver.Page.waitForTimeout(30000);
         return this.driver.Page.textContent(this.cartNum);
     }
 
@@ -55,7 +55,7 @@ export class MyPage extends BasePage{
     }
 
     async getElementTextTotal() {
-        await this.driver.Page.waitForTimeout(10000);
+        await this.driver.Page.waitForTimeout(30000);
         return this.driver.Page.textContent(this.precioTotal);
     }
 }
